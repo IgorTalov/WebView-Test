@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+@property(weak, nonatomic) IBOutlet UIWebView* webView;
+@property(weak, nonatomic) IBOutlet UIActivityIndicatorView* indicator;
+@property(weak, nonatomic) IBOutlet UIBarButtonItem* backItem;
+@property(weak, nonatomic) IBOutlet UIBarButtonItem* forwardItem;
+
+@property(strong, nonatomic) NSURL* url;
+
+-(IBAction)backAction:(id)sender;
+-(IBAction)forwardAction:(id)sender;
+-(IBAction)refreshAction:(id)sender;
 
 @end
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1A11841D1BDF85001ED555 /* iPad_ru.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EE1A11831D1BDF85001ED555 /* iPad_ru.pdf */; };
+		EEDB65521CF1AA4700F7F5AB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDB65511CF1AA4700F7F5AB /* TableViewController.m */; };
+		EEDB65541CF2408200F7F5AB /* book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EEDB65531CF2408200F7F5AB /* book.pdf */; };
 		EEED16741CF0C84500C0D928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEED16731CF0C84500C0D928 /* main.m */; };
 		EEED16771CF0C84500C0D928 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEED16761CF0C84500C0D928 /* AppDelegate.m */; };
 		EEED167A1CF0C84500C0D928 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEED16791CF0C84500C0D928 /* ViewController.m */; };
@@ -16,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1A11831D1BDF85001ED555 /* iPad_ru.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iPad_ru.pdf; sourceTree = "<group>"; };
+		EEDB65501CF1AA4700F7F5AB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EEDB65511CF1AA4700F7F5AB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EEDB65531CF2408200F7F5AB /* book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = book.pdf; sourceTree = "<group>"; };
 		EEED166F1CF0C84500C0D928 /* WebViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEED16731CF0C84500C0D928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEED16751CF0C84500C0D928 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,8 +65,12 @@
 		EEED16711CF0C84500C0D928 /* WebViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				EE1A11831D1BDF85001ED555 /* iPad_ru.pdf */,
+				EEDB65531CF2408200F7F5AB /* book.pdf */,
 				EEED16751CF0C84500C0D928 /* AppDelegate.h */,
 				EEED16761CF0C84500C0D928 /* AppDelegate.m */,
+				EEDB65501CF1AA4700F7F5AB /* TableViewController.h */,
+				EEDB65511CF1AA4700F7F5AB /* TableViewController.m */,
 				EEED16781CF0C84500C0D928 /* ViewController.h */,
 				EEED16791CF0C84500C0D928 /* ViewController.m */,
 				EEED167B1CF0C84500C0D928 /* Main.storyboard */,
@@ -137,9 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1A11841D1BDF85001ED555 /* iPad_ru.pdf in Resources */,
 				EEED16821CF0C84500C0D928 /* LaunchScreen.storyboard in Resources */,
 				EEED167F1CF0C84500C0D928 /* Assets.xcassets in Resources */,
 				EEED167D1CF0C84500C0D928 /* Main.storyboard in Resources */,
+				EEDB65541CF2408200F7F5AB /* book.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +166,7 @@
 				EEED167A1CF0C84500C0D928 /* ViewController.m in Sources */,
 				EEED16771CF0C84500C0D928 /* AppDelegate.m in Sources */,
 				EEED16741CF0C84500C0D928 /* main.m in Sources */,
+				EEDB65521CF1AA4700F7F5AB /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WebViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDeveloper.WebViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WebViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDeveloper.WebViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +315,7 @@
 				EEED16881CF0C84500C0D928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
